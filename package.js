@@ -17,7 +17,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.addFiles('events-client.js', 'client');
   api.addFiles('events-server.js', 'server');
-  api.export('EventEmitter');
+  api.export('events');
 });
 
 Package.onTest(function(api) {

@@ -1,1 +1,1 @@
-EventEmitter = Npm.require('events').EventEmitter
+events = Npm.require('events');
